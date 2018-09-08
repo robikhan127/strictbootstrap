@@ -1,0 +1,224 @@
+/** Global CSS **/
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/** Header Section CSS **/
+header{
+	background-color: #f6f9f9;
+	padding: 20px 0px;
+}
+
+/** Banner Section CSS **/
+
+.banner{
+	background: url(../img/banner.png);
+	background-size: cover;
+}
+.banner h1{
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 220px;
+	font-weight: 700;
+}
+.banner-line{
+	border: 1px solid #15a4fa;
+	width: 40%;
+	margin: 10px auto 15px;;
+}
+.banner p{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.btn-primary{
+	border: 1px solid #15A4fa;
+	color: #fff;
+    background: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    display: block;
+    margin: 75px auto;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.btn-primary:hover{
+	background-color: #15A4fa;
+	cursor:pointer; 
+	box-shadow: 1px 2px 3px #161616;
+
+}
+.fa-angle-down{
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	margin: 0px 0px 50px;
+	-webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.fa-angle-down:hover{
+	color: #15A4fa;
+	cursor: pointer;
+	padding-top: 7px;
+}
+
+/* Features Section CSS */
+.features{
+	width: 100%;
+	background-color: #f6f9f9;
+	padding: 80px 0px;
+}
+
+.features h1{
+	margin: 0px 0px 30px;
+}
+
+.features p{
+	line-height: 30px;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+}
+/* Features Icon Section CSS */
+
+.features-icon{
+	width: 100%;
+	background-color: #fff;
+	padding: 50px 0px;
+}
+
+.features-icon h3{
+	padding: 20px 0px 0px;
+	color: #2d3950;
+	font-size: 28px;
+	font-weight: 600;
+
+}
+
+.features-icon p{
+	font-size: 16px;
+	color: #999999;
+	padding: 0px 50px;
+}
+
+.icon img{
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+.icon img:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+/** Portfolio Section CSS **/
+
+.portfolio{
+    background-color: #f6f9f9;
+    padding-top: 70px;
+    padding-bottom: 70px; 
+}
+.portfolio h1{
+	color: #2d3950;
+	font-size: 32px;
+}
+.portfolio p{
+	color: #999999;
+	padding: 15px 0px;
+}
+.work{
+    padding: 15px;
+}
+.work img{
+	display: block;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+.work img:hover{
+	transform: scale(1.1, 1.1);	
+}
+
+/** Stay With Us Section CSS **/
+.stay-with-us{
+	background: url(../img/staywithus.png);
+	padding: 80px;
+	background-size: cover;
+}
+.stay-with-us h1{
+	color: #fff;
+	font-size: 32px;
+	font-weight: 600;
+}
+.stay-with-us p{
+	color: #999999;
+	font-size: 18px;
+}
+
+.form{
+	margin: 0px -60px 0px 0px;
+}
+.input{
+	width: 100%;
+    padding: 10px;
+    background: transparent;
+    margin: 4px 0px;
+    border: 1px solid #999999;
+    font-size: 13px;
+}
+.message{
+	width: 100%;
+    background: transparent;
+    margin: 4px 0px;
+    border: 1px solid #999999;
+    font-size: 13px;
+    padding: 15px 10px 130px;
+
+}
+
+.send-btn{
+	background: transparent;
+    border: 1px solid #15a4fa;
+    padding: 9px 19px;
+    font-size: 14px;
+    margin: 8px 0px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.send-btn:hover{
+	background: #15a4fa;
+	cursor: pointer;
+	box-shadow: 1px 2px 3px #161616;
+}
+
+/** Footer Section CSS **/
+.footer p{
+    padding: 24px 0px 0px;
+    font-size: 14px;
+}
+.footericon{
+	padding: 10px 0px 0px;
+}
+
+.footericon:hover{
+	transform: scale(1.1, 1.1);
+}
